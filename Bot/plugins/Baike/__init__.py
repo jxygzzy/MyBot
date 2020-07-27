@@ -13,7 +13,7 @@ __plugin_usage__ = r"""
 发送：百科 [词条]
 """
 
-@on_command('baike', aliases=('百科','百度百科'))
+@on_command('baike', aliases=('百科'))
 async def weather(session: CommandSession):
     # 从会话状态（session.state）中获取城市名称（city），如果当前不存在，则询问用户
     words = session.get('words', prompt='你想查询什么词句呢？')
