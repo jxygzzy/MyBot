@@ -52,4 +52,4 @@ async def _(session: CommandSession):
 @on_natural_language(keywords={'百科'})
 async def _(session: NLPSession):
     # 返回意图命令，前两个参数必填，分别表示置信度和意图命令名
-    return IntentCommand(90.0, '百科')
+    return IntentCommand(90.0, 'baike')
