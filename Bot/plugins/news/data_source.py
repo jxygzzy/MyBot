@@ -19,7 +19,7 @@ async def get_news():
     }
     request = urllib.request.Request(url=url, headers=headers)
     res = urllib.request.urlopen(request)
-    html = res.read().decode("gb2312")
+    html=res.read()
     # print(html)
     soup = BeautifulSoup(html, "html.parser")
     for item in soup.find_all('a', class_="list-title"):
