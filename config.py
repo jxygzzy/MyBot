@@ -8,7 +8,7 @@ from nonebot.default_config import *
 
 #SUPERUSERS = {1924451951}
 COMMAND_START = {'', '/', '!', '／', '！'}
-NICKNAME = {'小居','居居','叮当猫','川普','Trump','小叮当','~'}
+NICKNAME = {'小居','居居','叮当猫','川普','Trump','小叮当','~',}
 
 HOST = '127.0.0.1'
 PORT = 8080
