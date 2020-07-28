@@ -20,7 +20,7 @@ async def get_music(song):
 
     res = requests.post(url=url, headers=headers, data=data)
     text=res.json()
-    result=''
     for data in text['data']:
-        result=result+data['title']+"-"+data['author']+":http://music.163.com/#/song?id="+data['id']+'\n'
-    return result
+        id=int(data['id'])
+        break
+    return id
