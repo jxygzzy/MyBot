@@ -19,7 +19,7 @@ async def get_news():
     result=''
     for i in text['result']:
         result=result+i['title']+'\n'
-        result=result+i['path']+'\n'
+        # result=result+i['path']+'\n'
         count=count+1
         if count==10:
             break
