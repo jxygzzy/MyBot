@@ -18,6 +18,8 @@ __plugin_usage__ = r"""
 async def oneWord(session: CommandSession):
     news_report = await get_news()
     await session.send(news_report)
+    await session.send('[CQ:share,url=https://news.163.com/rank/,title=网易新闻排行榜]')
+
 
 @on_natural_language(keywords={'新闻'})
 async def _(session: NLPSession):
