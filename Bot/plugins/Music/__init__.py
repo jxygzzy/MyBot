@@ -3,10 +3,10 @@
 # @Author  : P19Y0UN9
 # @File    : Music.py
 # @Software: PyCharm
-__plugin_name__ = '词条百科检索'
+__plugin_name__ = '点歌'
 __plugin_usage__ = r"""
-查询词条百科
-发送：百科 [词条]
+分享网易云音乐链接
+发送：点歌 [歌曲名/歌手名]
 """
 
 from nonebot import on_command, CommandSession

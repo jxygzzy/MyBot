@@ -7,7 +7,7 @@ from nonebot import on_command, CommandSession
 from nonebot import on_natural_language, NLPSession, IntentCommand
 from Bot.plugins.Baike.data_source import get_baike
 
-__plugin_name__ = '词条百科检索'
+__plugin_name__ = '百科检索'
 __plugin_usage__ = r"""
 查询词条百科
 发送：百科 [词条]
