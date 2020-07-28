@@ -22,7 +22,7 @@ async def weather(session: CommandSession):
     # 获取城市的天气预报
     song_report = await get_music(song)
     # 向用户发送天气预报
-    await session.send(song_report)
+    await session.send('[CQ:music,type=163,id=%d]'%song_report)
 
 
 # weather.args_parser 装饰器将函数声明为 weather 命令的参数解析器
