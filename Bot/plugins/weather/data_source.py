@@ -26,8 +26,8 @@ async def get_weather_of_city(city: str) -> str:
     res = requests.get(url=url, headers=headrs, params=params)
     text = json.loads(res.text)
     # print(text)
-    result = text['city'] + ':'+ text['week'] + text['update_time'] + ',' + text['wea']
-    result = result + ' ' + text['win'] + ' 最低气温' + text['tem2'] + '摄氏度' + ' 最高气温' + text['tem1']
-    result = result + '摄氏度' + ' 空气质量' + text['air_level'] + ' ' + text['air_tips']
+    result = text['city'] + ':'+ text['week'] + text['update_time'] + '\n' + text['wea']
+    result = result + ' ' + text['win'] + '\n气温' + text['tem2'] + '~' + text['tem1']+ '摄氏度'
+    result = result  + '\n空气质量:' + text['air_level'] + '\n' + text['air_tips']
 
     return result
