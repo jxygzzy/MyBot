@@ -24,3 +24,4 @@ from nonebot import on_notice, NoticeSession
 async def _(session: NoticeSession):
     # 发送欢迎消息
     await session.send('欢迎新朋友～')
+
