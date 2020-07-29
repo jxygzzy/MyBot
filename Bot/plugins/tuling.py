@@ -58,7 +58,7 @@
 #     if not text:
 #         return None
 #
-#     url = 'http://openapi.tuling123.com/openapi/api/v2'
+#     url = 'https://openai.weixin.qq.com/openapi/aibot/{RP2aLScw395xjPAvFEM67wFJzZY4zg}'
 #
 #     # 构造请求数据
 #     payload = {
