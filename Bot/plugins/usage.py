@@ -16,7 +16,7 @@ async def _(session: CommandSession):
     if not arg:
         # 如果用户没有发送参数，则发送功能列表
         await session.send(
-            '我现在支持的功能有：\n' + ' '.join(p.name for p in plugins)+'\n'+\
+            '我现在支持的功能有：\n[CQ:emoji,id=127775]' + '[CQ:emoji,id=127775]'.join(p.name for p in plugins)+'\n'+\
             "查看具体操作发送：使用方法/帮助 [功能]\n在群聊中跟我对话，请在前面加上‘~’或者喊我的名字")
         return
 
