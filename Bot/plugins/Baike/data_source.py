@@ -4,31 +4,34 @@
 # @File    : data_source.py
 # @Software: PyCharm
 
-import requests
-import re
-from bs4 import BeautifulSoup
+import urllib.request
+import urllib.parse
+from lxml import etree
 
-findImfor = re.compile(r'<div class="well">(.*?)</div>')
-
-url='http://kw.fudan.edu.cn/cndbpedia/search/'
-
-async def get_baike(qeury):
-    headers={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+def query(content):
+    # 请求地址
+    url = 'https://baike.baidu.com/item/' + urllib.parse.quote(content)
+    # 请求头部
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
     }
-    params={
-        "mention":qeury.encode('utf-8')
-    }
-    res=requests.get(url=url,headers=headers,params=params)
-    html=res.text
-    soup = BeautifulSoup(html,"html.parser")
-    try:
-        item = soup.find_all('div', class_='well')[0]
-        item=re.findall(findImfor,str(item))[0]
-        item=re.sub('<a href="./\?mention=.*?">','',item)
-        item=re.sub('</a>','',item)
-        item=re.sub('<.*?br.*?>','',item)
-        # item=re.sub('</br>','',item)
-    except:
-        return "***暂未找到该词条***"
-    return item
+    # 利用请求地址和请求头部构造请求对象
+    req = urllib.request.Request(url=url, headers=headers, method='GET')
+    # 发送请求，获得响应
+    response = urllib.request.urlopen(req)
+    # 读取响应，获得文本
+    text = response.read().decode('utf-8')
+    # 构造 _Element 对象
+    html = etree.HTML(text)
+    # 使用 xpath 匹配数据，得到匹配字符串列表
+    sen_list = html.xpath('//div[contains(@class,"lemma-summary") or contains(@class,"lemmaWgt-lemmaSummary")]//text()')
+    # 过滤数据，去掉空白
+    sen_list_after_filter = [item.strip('\n') for item in sen_list]
+    # 将字符串列表连成字符串并返回
+    return ''.join(sen_list_after_filter)
+async def get_baike(conect):
+    result=query(conect)
+    if result == '':
+        return '***未找到该词条***'
+    else:
+        return result
