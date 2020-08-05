@@ -28,8 +28,9 @@ async def _():
     bot = nonebot.get_bot()
     #now = datetime.now(pytz.timezone('Asia/Shanghai'))
     try:
-        await  bot.send_group_msg(group_id='887469565',
+        await bot.send_group_msg(group_id='887469565',
                                   message='https://docs.qq.com/form/page/Bd9bE84KHEk13tEO6f3pzSTV3a1kbV0NUoq93xC69Z2zKVDm2x5Bad3AJmm72HCkfg2PZsng2#/')
+        await bot.send_group_msg(group_id='887469565',message='https://docs.qq.com/form/fill/DS3dFakpJeVRRZVBI#')
     except CQHttpError:
         pass
 
