@@ -11,6 +11,6 @@ COMMAND_START = {'', '/', '!', '／', '！'}
 NICKNAME = {'~','～','鹅砸','小鹅'}
 
 HOST = '127.0.0.1'
-PORT = 8080
+PORT = 9222
 
 TULING_API_KEY = 'Wt9sahTWW2kXQWo'
