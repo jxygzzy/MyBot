@@ -9,6 +9,7 @@ __plugin_usage__ = r"""
 发送：点歌 [歌曲名/歌手名]
 """
 
+from aiocqhttp import MessageSegment
 from nonebot import on_command, CommandSession
 from nonebot import on_natural_language, NLPSession, IntentCommand
 
@@ -22,7 +23,9 @@ async def weather(session: CommandSession):
     # 获取城市的天气预报
     song_report = await get_music(song)
     # 向用户发送天气预报
-    await session.send('[CQ:music,type=163,id=%d]'%song_report)
+    mus=MessageSegment.music(163,song_report)
+    MessageSegment
+    await session.send(mus)
 
 
 # weather.args_parser 装饰器将函数声明为 weather 命令的参数解析器

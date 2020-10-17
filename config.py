@@ -13,4 +13,6 @@ NICKNAME = {'~','～','鹅砸','小鹅'}
 HOST = '127.0.0.1'
 PORT = 9222
 
-TULING_API_KEY = 'Wt9sahTWW2kXQWo'
+TULING_API_KEY = '445590503a744d51a262d9e5205def61'
+
+IMAGE_LOCAL='pic/image.png'

@@ -1,22 +1,11 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2020/7/25 17:29
-# @Author  : P19Y0UN9
-# @File    : tuling.py
-# @Software: PyCharm
 import json
 from typing import Optional
+
 import aiohttp
 from aiocqhttp.message import escape
 from nonebot import on_command, CommandSession
 from nonebot import on_natural_language, NLPSession, IntentCommand
 from nonebot.helpers import context_id, render_expression
-
-__plugin_name__ = '智能聊天'
-__plugin_usage__ = r"""
-智能聊天
-
-直接跟我聊天即可～
-""".strip()
 
 # 定义无法获取图灵回复时的「表达（Expression）」
 EXPR_DONT_UNDERSTAND = (
@@ -58,7 +47,7 @@ async def call_tuling_api(session: CommandSession, text: str) -> Optional[str]:
     if not text:
         return None
 
-    url = 'https://openai.weixin.qq.com/openapi/aibot/{RP2aLScw395xjPAvFEM67wFJzZY4zg}'
+    url = 'http://openapi.tuling123.com/openapi/api/v2'
 
     # 构造请求数据
     payload = {

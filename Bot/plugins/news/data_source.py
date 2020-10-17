@@ -16,7 +16,7 @@ async def get_news():
     res=requests.get(url=url,headers=headers)
     text=res.json()
     count=1;
-    result='***由于Tencent拦截，暂不发送网址***\n'
+    result=''
     for i in text['result']:
         result=result+str(count)+'.'+i['title']+'\n'
         # result=result+i['path']+'\n'

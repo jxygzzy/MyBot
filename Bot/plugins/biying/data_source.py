@@ -4,8 +4,13 @@
 # @File    : data_source.py
 # @Software: PyCharm
 
+import os
+from urllib.request import urlretrieve
+
+import requests
+
+
 async def get_wall():
-    import requests
     url = 'http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US'
 
     headers = {
@@ -16,4 +21,6 @@ async def get_wall():
     text = res.json()
 
     result = 'https://www.bing.com' + text['images'][0]['url']
-    return result
+    image_url = result
+    urlretrieve(image_url, 'D:/Desktop/项目仓库/pic/Bing.jpg')  # 将什么文件存放到什么位置
+    return True

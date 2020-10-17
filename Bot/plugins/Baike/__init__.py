@@ -6,6 +6,7 @@
 from nonebot import on_command, CommandSession
 from nonebot import on_natural_language, NLPSession, IntentCommand
 from Bot.plugins.Baike.data_source import get_baike
+from aiocqhttp import MessageSegment
 
 __plugin_name__ = '百科检索'
 __plugin_usage__ = r"""
@@ -20,7 +21,8 @@ async def weather(session: CommandSession):
     # 获取城市的天气预报
     baike_report = await get_baike(words)
     # 向用户发送天气预报
-    await session.send(baike_report)
+    res=MessageSegment.text(baike_report)
+    await session.send(res)
 
 
 # weather.args_parser 装饰器将函数声明为 weather 命令的参数解析器

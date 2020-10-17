@@ -16,7 +16,7 @@ from nonebot import on_command, CommandSession
 from Bot.plugins.netaesetext.data_source import get_text
 
 
-@on_command('neteasetext', aliases=('网抑云','网易云','到点了'))
+@on_command('neteasetext', aliases=('网抑云','网易云','到点了','网易云语录','网抑云语录'))
 async def text(session: CommandSession):
     text_report = await get_text()
     await session.send(text_report)
