@@ -8,7 +8,7 @@ from datetime import datetime
 import nonebot
 import pytz
 from aiocqhttp.exceptions import Error as CQHttpError
-from Bot.plugins.CheckIn_CUIT.data_source import checkIn
+# from Bot.plugins.CheckIn_CUIT.data_source import checkIn
 
 groupId = ['1079359698','887469565','141990544']
 

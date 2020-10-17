@@ -23,9 +23,8 @@ async def weather(session: CommandSession):
     # 获取城市的天气预报
     song_report = await get_music(song)
     # 向用户发送天气预报
-    mus=MessageSegment.music(163,song_report)
-    MessageSegment
-    await session.send(mus)
+    res=MessageSegment.music(163,song_report,1)
+    await session.send(res)
 
 
 # weather.args_parser 装饰器将函数声明为 weather 命令的参数解析器
