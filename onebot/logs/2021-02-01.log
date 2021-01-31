@@ -1,0 +1,1187 @@
+[92m2021-02-01 00:03:48 I/Net 1557036870: Connected to server 42.81.169.46:8080[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 00:03:48 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 00:03:48 I/Net 1557036870: Start loading friend list...[0m
+[92m2021-02-01 00:03:48 I/Net 1557036870: Start loading group list...[0m
+[92m2021-02-01 00:03:48 I/Net 1557036870: Start loading stranger list...[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.getFriendGroupList[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: OidbSvc.0x5d2_0[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@14c2b772[0m
+[92m2021-02-01 00:03:48 I/Net 1557036870: Successfully loaded stranger list: 0 in total[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Loading friend list: 21/21[0m
+[92m2021-02-01 00:03:48 I/Net 1557036870: Successfully loaded friend list: 21 in total[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:48 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-02-01 00:03:49 I/Net 1557036870: Successfully loaded group list: 18 in total.[0m
+[92m2021-02-01 00:03:49 I/Net 1557036870: Syncing friend message history...[0m
+[92m2021-02-01 00:03:49 I/Net 1557036870: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:03:49 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 00:03:49 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 00:03:51 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 00:03:51 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[92m2021-02-01 00:03:51 I/Net 1557036870: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-02-01 00:03:51 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 00:03:51 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 00:03:51 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 00:04:34 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@665c97dc)[0m
+[0m2021-02-01 00:04:34 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:04:35 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:05:17 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@6a746d28)[0m
+[0m2021-02-01 00:05:17 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:05:17 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:05:36 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@20400ca4)[0m
+[0m2021-02-01 00:05:36 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:05:36 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:05:37 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:05:37 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@14191674)[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:05:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:06:18 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:06:18 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:06:18 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:06:18 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:06:23 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:06:23 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:08:18 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:08:18 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:11:18 V/Net 1557036870: Send: OnlinePush.RespPush[0m
+[0m2021-02-01 00:11:26 V/Net 1557036870: Send: OnlinePush.RespPush[0m
+[0m2021-02-01 00:12:48 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:12:48 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:15:54 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:15:54 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:15:54 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:15:54 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:16:02 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:16:02 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:17:18 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:17:18 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:17:24 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 00:17:24 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 00:17:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:17:25 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:17:34 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:17:35 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:21:48 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:21:48 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:26:18 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:26:18 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:30:47 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4422d559)[0m
+[0m2021-02-01 00:30:47 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:30:47 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:30:48 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:30:48 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:30:53 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:30:53 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:31:04 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@12e0394d)[0m
+[0m2021-02-01 00:31:04 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:31:04 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:31:04 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:31:04 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:31:52 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@591c4902)[0m
+[0m2021-02-01 00:31:52 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:31:53 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:31:54 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:31:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:31:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:31:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:32:54 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1c4d5d50)[0m
+[0m2021-02-01 00:32:54 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:32:54 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:32:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:32:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:32:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:32:59 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:35:18 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:35:18 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:39:03 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@5e096934)[0m
+[0m2021-02-01 00:39:03 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:39:03 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:39:48 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:39:49 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:40:25 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7317a360)[0m
+[0m2021-02-01 00:40:25 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:40:26 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:40:56 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4ea7ee06)[0m
+[0m2021-02-01 00:40:56 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:40:56 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:41:04 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2b78799c)[0m
+[0m2021-02-01 00:41:04 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:41:04 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:41:07 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:41:07 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:41:07 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:41:08 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:41:23 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2e145fd7)[0m
+[0m2021-02-01 00:41:23 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:41:24 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:41:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:41:24 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:41:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:41:25 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:43:46 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@705adff9)[0m
+[0m2021-02-01 00:43:46 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:43:46 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:43:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:43:49 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:43:49 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:43:49 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:44:19 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:44:19 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:44:48 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@75a97740)[0m
+[0m2021-02-01 00:44:48 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:44:48 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:46:43 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@5bf27e2f)[0m
+[0m2021-02-01 00:46:43 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:46:44 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:47:15 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@cb8b3b5)[0m
+[0m2021-02-01 00:47:15 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:47:15 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:47:38 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@44f3b70b)[0m
+[0m2021-02-01 00:47:38 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:47:38 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:47:42 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:47:42 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:47:42 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:47:42 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:48:49 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:48:49 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:53:19 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:53:19 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:53:54 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@32e53299)[0m
+[0m2021-02-01 00:53:54 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:53:54 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:53:54 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:55 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:57 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:59 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:53:59 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:53:59 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:54:13 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2ab9b1d)[0m
+[0m2021-02-01 00:54:13 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:54:14 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:54:14 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:54:14 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@ac52bad)[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:44 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:45 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:46 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:47 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:56:48 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3811c161)[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:29 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:30 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:31 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:32 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 00:57:33 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 00:57:49 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 00:57:49 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 00:58:54 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1c6c81d5)[0m
+[0m2021-02-01 00:58:54 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 00:58:54 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:02:19 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:02:19 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:06:49 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:06:49 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:08:48 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@35e0bb07)[0m
+[0m2021-02-01 01:08:48 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:08:48 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:09:14 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@5ffce0be)[0m
+[0m2021-02-01 01:09:14 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:09:14 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:10:17 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@428dfe0c)[0m
+[0m2021-02-01 01:10:17 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:10:17 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:11:19 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:11:19 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:12:41 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@151fb2f)[0m
+[0m2021-02-01 01:12:41 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:12:41 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:15:49 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:15:49 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:20:19 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:20:19 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:24:49 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:24:49 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:29:19 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:29:19 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-01 01:29:26 I/Net 1557036870: Connected to server 114.221.148.59:14000[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 01:29:26 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 01:29:26 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:29:26 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 01:29:26 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 01:29:29 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 01:29:29 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 01:29:29 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 01:29:29 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 01:29:29 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 01:33:56 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:33:56 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:38:26 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:38:26 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:42:56 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:42:56 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-01 01:46:11 I/Net 1557036870: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 01:46:11 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 01:46:11 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:46:11 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 01:46:11 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 01:46:14 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 01:46:14 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 01:46:14 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 01:46:14 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 01:46:14 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 01:50:41 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:50:41 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:55:11 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:55:11 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 01:57:13 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7f1f99ec)[0m
+[0m2021-02-01 01:57:13 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:57:13 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:57:57 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3d17e657)[0m
+[0m2021-02-01 01:57:57 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:57:57 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:58:46 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@71d8787f)[0m
+[0m2021-02-01 01:58:46 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 01:58:46 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 01:59:41 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 01:59:41 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:00:05 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7309d966)[0m
+[0m2021-02-01 02:00:05 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:00:05 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:00:54 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3c197000)[0m
+[0m2021-02-01 02:00:54 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:00:54 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:01:54 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1f22ac6d)[0m
+[0m2021-02-01 02:01:54 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:01:55 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:02:40 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@75e7f29c)[0m
+[0m2021-02-01 02:02:40 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:02:40 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:04:11 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:04:11 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:05:25 V/Net 1557036870: Send: OnlinePush.RespPush[0m
+[0m2021-02-01 02:05:34 V/Net 1557036870: Send: OnlinePush.RespPush[0m
+[0m2021-02-01 02:05:38 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@165f612f)[0m
+[0m2021-02-01 02:05:38 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:05:39 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:07:09 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3c8390b1)[0m
+[0m2021-02-01 02:07:09 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:07:09 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:07:50 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@766933e3)[0m
+[0m2021-02-01 02:07:50 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:07:50 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:08:21 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4d29db92)[0m
+[0m2021-02-01 02:08:21 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:08:21 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:08:41 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:08:41 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:09:08 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@203d53)[0m
+[0m2021-02-01 02:09:08 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:09:08 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:10:11 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@275cf3e8)[0m
+[0m2021-02-01 02:10:11 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:10:11 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:10:12 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 02:10:12 V/Net 1557036870: Recv: RequireUpload(resourceId=/1557036870-642398937-D41989E94247CA17D63E1F2A9E7EFBD1, serverIp=[354104688, -21302920, -1448403345, 990222372], serverPort=[80, 8080, 443, 80], uKey=[-128, 112, -100, 11, 20, 117, 22, -1, -95, -119, -68, 72, 27, -113, 20, -94, 90, -23, 97, -27, -128, 95, -31, -4, 121, -4, 111, -96, 28, -70, -32, 110, 45, -122, -56, 44, 17, 20, 92, 97, 68, 66, 87, 69, -41, 18, 13, 86, -54, 38, 118, 44, -47, -33, 8, -112, 81, -91, 99, 10, -40, -66, 67, -82, 111, -125, 60, 107, 111, 64, -24, -71, 26, 118, 55, 36, 111, -74, -43, -80, 4, 26, 30, 95, -41, 6, -45, 52, 118, -102, -98, 20, 56, 60, -8, 17, 67, -121, 124, 114, 111, -11, -19, -64, 107, 117, -120, -19, 50, -34, 10, -90, -44, -19, -103, -13, -88, 78, -122, -28, 61, -66, 127, 45, 8, 91, 66, 74, -80, -56, -70, 117, -53, 4, 90, -118, -62, 89, 40, -121, 88, -40, 41, -4, -83, -87, 3, -67, -76, -67, 127, 84, -65, -120, 35, 93, 68, -115, -17, 100, -128, 1, -55, -73, -125, 119, 53, -92, -41, 74, 10, 75, 124, 26, -26, 34, 105, -120, -56, 63, 46, -59, -77, -128, -102, -32, -46, -116, -51, -31, -29, 12, -48, -123, -49, 110, 97, -26, -57, -85, 80, -13, 10, -61, -19, 76, 110, -119, -87, 49, 15, 119, -125, 58, 102, -63, 52, -54, 27, 63, 34, 43, -8, -46, -4, 114, -88, -59, -97, 75, 43, -44, -7, 15, 124, -21, 38, -126, -47, -33, 48, 123, -23, 22, 121, 30, -83, -22, 76, 31, 127, -4, 53, 1, 9, 122, 28, -105, 43, -21, -105, -104, -58, -76, 1, 121, -73, -1, 109, 71, -41, 67, -77, -30, -72, -12, 61, -20, -38, 32, -77, 113, 6, -39, 103, -72, 57, -52, -111, -92, -93, 68, -2, 14, -9, 19, -26, 38, -105, 116, 8, -90, -60, -57, 20, -80, 72, 64, -4, -86, 36, -58, 4, -4, 67, 110, -75, 55, 110, 73, -127, -82, -61, -98, -16, -40, 41, -78, 40, 5, -13, 127, 20, 108, 75, -9])[0m
+[0m2021-02-01 02:10:12 V/Net 1557036870: [Http] Uploading friend image, size=298.43 KiB[0m
+[0m2021-02-01 02:10:13 V/Net 1557036870: [Http] Uploading friend image: succeed at 229 KiB/s[0m
+[0m2021-02-01 02:10:13 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 02:10:14 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 02:12:03 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4a67a835)[0m
+[0m2021-02-01 02:12:03 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:12:03 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:13:11 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:13:11 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:13:55 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2ac3099e)[0m
+[0m2021-02-01 02:13:55 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:13:55 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:14:12 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@6ac1afd0)[0m
+[0m2021-02-01 02:14:12 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:14:12 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:15:11 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4600496)[0m
+[0m2021-02-01 02:15:11 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:15:11 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:15:31 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@145e25ca)[0m
+[0m2021-02-01 02:15:31 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:15:31 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:16:14 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@69371c51)[0m
+[0m2021-02-01 02:16:14 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:16:14 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 02:16:37 I/Net 1557036870: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 02:16:37 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 02:16:37 I/Net 1557036870: Start loading friend list...[0m
+[92m2021-02-01 02:16:37 I/Net 1557036870: Start loading group list...[0m
+[92m2021-02-01 02:16:37 I/Net 1557036870: Start loading stranger list...[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Send: friendlist.getFriendGroupList[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-02-01 02:16:37 V/Net 1557036870: Send: OidbSvc.0x5d2_0[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@30e3d2fa[0m
+[92m2021-02-01 02:16:38 I/Net 1557036870: Successfully loaded stranger list: 0 in total[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Loading friend list: 21/21[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetFriendGroupList.Response[0m
+[92m2021-02-01 02:16:38 I/Net 1557036870: Successfully loaded friend list: 21 in total[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-02-01 02:16:38 I/Net 1557036870: Successfully loaded group list: 18 in total.[0m
+[92m2021-02-01 02:16:38 I/Net 1557036870: Awaiting ConfigPushSvc.PushReq.[0m
+[92m2021-02-01 02:16:38 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:16:38 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 02:16:38 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 02:16:40 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 02:16:40 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[92m2021-02-01 02:16:40 I/Net 1557036870: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-02-01 02:16:40 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 02:16:40 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 02:16:40 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 02:18:20 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2a74a5b1)[0m
+[0m2021-02-01 02:18:20 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:18:20 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:19:11 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@20b8b141)[0m
+[0m2021-02-01 02:19:11 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:19:11 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 02:19:11 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 02:19:12 V/Net 1557036870: Recv: FileExists(resourceId=/1557036870-196547584-D41989E94247CA17D63E1F2A9E7EFBD1, imageInfo=net.mamoe.mirai.internal.network.protocol.data.proto.Cmd0x352$ImgInfo@42774d00)[0m
+[0m2021-02-01 02:19:12 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 02:19:12 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 02:21:07 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:21:07 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:25:37 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:25:37 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:30:07 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:30:07 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:34:37 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:34:37 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-01 02:35:55 I/Net 1557036870: Connected to server 42.81.172.147:443[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 02:35:55 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 02:35:55 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:35:55 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 02:35:55 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 02:35:58 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 02:35:58 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 02:35:58 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 02:35:58 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 02:35:58 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 02:40:25 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:40:25 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:44:55 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:44:55 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 02:49:25 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:49:25 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-01 02:52:40 I/Net 1557036870: Connected to server 114.221.148.59:14000[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 02:52:40 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 02:52:40 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 02:52:40 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 02:52:40 I/Net 1557036870: Syncing friend message history: Success.[0m
+[96m2021-02-01 02:52:43 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 02:52:43 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 02:52:43 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 02:52:48 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 02:52:48 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 02:57:10 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 02:57:10 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:01:40 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:01:40 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:02:05 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4dd4062e)[0m
+[0m2021-02-01 03:02:05 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:02:05 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:02:05 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:02:05 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:02:09 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@342a95ae)[0m
+[0m2021-02-01 03:02:09 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:02:09 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:03:13 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7e2d3a6d)[0m
+[0m2021-02-01 03:03:13 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:03:13 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:03:56 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@ae701b9)[0m
+[0m2021-02-01 03:03:56 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:03:56 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:03:56 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:03:56 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:03:59 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@6818d711)[0m
+[0m2021-02-01 03:03:59 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:03:59 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:06:10 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:06:10 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:10:40 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:10:40 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:11:58 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@8ffb859)[0m
+[0m2021-02-01 03:11:58 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:11:58 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:13:32 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1f961579)[0m
+[0m2021-02-01 03:13:32 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:13:32 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:15:10 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:15:10 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:16:35 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@6d24f2f4)[0m
+[0m2021-02-01 03:16:35 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:16:35 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Recv: FileExists(resourceId=/1557036870-4014271561-D5A8EB058E26CCDC65D119B60404D85C, imageInfo=net.mamoe.mirai.internal.network.protocol.data.proto.Cmd0x352$ImgInfo@63c451f6)[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:16:37 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:16:38 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:16:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:16:38 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:16:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:16:39 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:18 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7586aef9)[0m
+[0m2021-02-01 03:17:18 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:17:18 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:19 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:17:20 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:17:59 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@e68e3ec)[0m
+[0m2021-02-01 03:17:59 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:18:00 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:18:00 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:18:00 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:18:01 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 03:18:01 V/Net 1557036870: Recv: RequireUpload(resourceId=/1557036870-330170324-BCD1038A281703AE5DD156D1136470EE, serverIp=[1538978168, 354104688, -1448403345, 2062129956], serverPort=[80, 8080, 443, 80], uKey=[83, -114, -51, -45, -48, -78, -127, 2, 44, 48, 14, 107, 23, 77, 14, -30, -20, 30, -75, -50, -62, -126, 110, 66, 39, 19, 120, -42, -4, 41, -24, -124, 94, 42, -69, -41, 90, -47, 13, -47, 86, 89, -100, 1, -108, 37, 104, -125, -57, -64, 4, -1, 93, 46, -112, -51, 121, -108, -68, 52, -115, -120, 84, 36, -96, 80, -8, -36, 121, -104, 25, -80, 55, 83, -126, -2, 46, -56, 36, -117, 104, -50, -63, 73, -124, -68, 106, -81, 109, 119, -11, -89, 6, 36, 13, -40, -95, -111, 122, 23, -10, 52, 31, 119, -104, 50, -44, 107, 75, -67, -82, 44, 80, -89, -40, 16, -44, -36, -118, -77, -66, 43, 96, 99, 58, -71, 102, -66, -84, -95, -69, -36, -67, 79, -32, -1, 107, 75, -27, 62, 87, -93, 82, 76, -122, 19, -46, -35, -41, 8, -32, -21, -25, -92, -25, -92, -86, -5, 11, -10, 47, 120, 93, -91, -8, 10, 4, -58, 44, -15, 30, 81, 28, -39, 35, -39, -59, 8, 44, 19, 69, -69, 47, 66, 21, -35, 61, 78, 4, -67, 96, 8, -23, 57, 102, -92, -36, 23, 109, 99, 34, -98, 81, -11, 62, -23, 72, 124, 97, 72, 65, -106, 11, -9, 43, 108, 41, -2, -121, -70, -31, -34, -106, 32, -123, -4, 74, 24, 19, -9, -121, -51, 98, -77, -97, 66, 78, -111, 41, 47, -40, 36, -116, 71, -25, -11, -50, 47, -104, 96, 14, 5, 57, 100, -91, -7, -53, -78, -5, 72, 105, 84, -9, -120, 97, -29, -92, -60, -87, 9, 75, 82, -76, -123, 15, 114, -74, 8, -41, -41, 8, 81, -42, 85, 61, -8, 110, -103, -17, -65, 53, -68, -29, 63, 9, -53, 45, -77, 10, 31, -63, 103, 4, -91, -86, -33, 35, -80, 59, -128, 109, -70, -65, 61, 100, 55, -99, 121, -70, -80, 53, -1, 114, 113, 103, -105, 123, -51, -2, -62, -36, 105, -53, -107, 29, 87])[0m
+[0m2021-02-01 03:18:01 V/Net 1557036870: [Http] Uploading friend image, size=7.95 KiB[0m
+[0m2021-02-01 03:18:03 V/Net 1557036870: [Http] Uploading friend image: succeed at 5 KiB/s[0m
+[0m2021-02-01 03:18:03 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:18:04 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:19:40 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:19:40 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:21:34 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1b9365b9)[0m
+[0m2021-02-01 03:21:34 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:21:35 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:21:35 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:21:35 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:21:35 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 03:21:36 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 03:24:10 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:24:10 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:28:40 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:28:41 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:33:11 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:33:11 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:37:41 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:37:41 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-01 03:38:20 I/Net 1557036870: Connected to server 42.81.169.46:8080[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 03:38:20 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 03:38:20 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:38:20 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 03:38:20 I/Net 1557036870: Syncing friend message history: Success.[0m
+[96m2021-02-01 03:38:23 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 03:38:23 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 03:38:23 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 03:38:28 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 03:38:28 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 03:42:50 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:42:50 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:47:20 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:47:20 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 03:51:50 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:51:50 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-01 03:55:04 I/Net 1557036870: Connected to server 42.81.172.81:80[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 03:55:04 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 03:55:04 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:55:04 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 03:55:04 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 03:55:07 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 03:55:07 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 03:55:07 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 03:55:07 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 03:55:07 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 03:57:13 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@78567120)[0m
+[0m2021-02-01 03:57:13 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 03:57:13 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 03:59:34 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 03:59:34 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:04:04 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:04:09 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[92m2021-02-01 04:04:19 I/Net 1557036870: Connected to server 125.94.60.146:80[0m
+[0m2021-02-01 04:04:19 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 04:04:19 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 04:04:19 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 04:04:19 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 04:04:20 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 04:04:20 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 04:04:20 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 04:04:20 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 04:04:20 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:04:20 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 04:04:20 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 04:04:22 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:04:23 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 04:04:23 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 04:04:23 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:04:23 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 04:08:50 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:08:55 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[92m2021-02-01 04:09:05 I/Net 1557036870: Connected to server 114.221.144.215:80[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 04:09:05 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 04:09:05 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:09:05 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 04:09:05 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 04:09:08 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:09:08 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 04:09:08 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 04:09:08 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:09:08 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 04:10:28 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7f735d5d)[0m
+[0m2021-02-01 04:10:28 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:10:28 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:13:35 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:13:35 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:18:05 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:18:10 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[92m2021-02-01 04:18:20 I/Net 1557036870: Connected to server 42.81.172.22:80[0m
+[0m2021-02-01 04:18:20 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 04:18:20 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 04:18:20 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 04:18:20 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 04:18:21 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 04:18:21 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 04:18:21 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 04:18:21 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 04:18:21 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:18:21 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 04:18:21 I/Net 1557036870: Syncing friend message history: Success.[0m
+[0m2021-02-01 04:18:24 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:18:24 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-01 04:18:24 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 04:18:24 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:18:24 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 04:22:51 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:22:56 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[92m2021-02-01 04:23:06 I/Net 1557036870: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Send: wtlogin.login[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-01 04:23:06 I/Net 1557036870: Login successful[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Send: StatSvc.register[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Recv: Response(StatSvc.register)[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-01 04:23:06 I/Net 1557036870: Syncing friend message history...[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:23:06 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-01 04:23:06 I/Net 1557036870: Syncing friend message history: Success.[0m
+[96m2021-02-01 04:23:09 D/Net 1557036870: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-01 04:23:09 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:23:09 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 04:23:09 V/Net 1557036870: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-01 04:23:09 V/Net 1557036870: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-01 04:27:36 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:27:36 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:30:42 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@725377c4)[0m
+[0m2021-02-01 04:30:42 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:30:42 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:31:05 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@9e02a51)[0m
+[0m2021-02-01 04:31:05 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:31:05 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:32:06 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:32:06 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:32:18 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1f1971d5)[0m
+[0m2021-02-01 04:32:18 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:32:19 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:36:33 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2c90d2b2)[0m
+[0m2021-02-01 04:36:33 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:36:33 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:36:36 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:36:36 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:37:11 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@329d7c0a)[0m
+[0m2021-02-01 04:37:11 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:37:11 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:37:38 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2fbbdf03)[0m
+[0m2021-02-01 04:37:38 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:37:38 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:37:57 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@18044b9d)[0m
+[0m2021-02-01 04:37:57 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:37:58 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:39:03 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@11df0a74)[0m
+[0m2021-02-01 04:39:03 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:39:03 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:41:06 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:41:06 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:41:09 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2137a01c)[0m
+[0m2021-02-01 04:41:09 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:41:10 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:43:06 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@5a4bb61e)[0m
+[0m2021-02-01 04:43:06 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:43:06 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:43:25 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@61f121e4)[0m
+[0m2021-02-01 04:43:25 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:43:25 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:44:13 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@103e486e)[0m
+[0m2021-02-01 04:44:13 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:44:13 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:44:53 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@917df80)[0m
+[0m2021-02-01 04:44:53 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:44:53 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:45:09 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@491a1b4f)[0m
+[0m2021-02-01 04:45:09 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:45:10 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:45:34 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@60f2e87c)[0m
+[0m2021-02-01 04:45:34 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:45:34 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:35 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:36 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:45:36 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:45:57 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@38a896a8)[0m
+[0m2021-02-01 04:45:57 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:45:57 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:45:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:50:06 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:50:06 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:54:36 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:54:36 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:57:41 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@fa71d76)[0m
+[0m2021-02-01 04:57:41 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:57:41 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 04:57:42 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:57:42 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:57:42 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:57:43 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:57:43 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 04:57:43 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 04:59:06 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 04:59:06 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 04:59:51 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2af46c5a)[0m
+[0m2021-02-01 04:59:51 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 04:59:51 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:01:16 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@33717a9c)[0m
+[0m2021-02-01 05:01:16 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:01:16 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:02:20 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7a6269eb)[0m
+[0m2021-02-01 05:02:20 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:02:20 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:03:36 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:03:36 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:07:05 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@10afdc5a)[0m
+[0m2021-02-01 05:07:05 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:07:06 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:07:28 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@38449f82)[0m
+[0m2021-02-01 05:07:28 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:07:28 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:08:06 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@43aaaa05)[0m
+[0m2021-02-01 05:08:06 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:08:06 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:08:06 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:08:06 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:09:08 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@60d53f9c)[0m
+[0m2021-02-01 05:09:08 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:09:08 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:09:30 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4f8231fe)[0m
+[0m2021-02-01 05:09:30 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:09:31 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:10:23 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@74d143ab)[0m
+[0m2021-02-01 05:10:23 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:10:23 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:11:15 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4c4c7237)[0m
+[0m2021-02-01 05:11:15 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:11:15 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:11:52 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@22ef3ae8)[0m
+[0m2021-02-01 05:11:52 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:11:52 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:12:00 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:12:00 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:12:00 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 05:12:00 V/Net 1557036870: Recv: FileExists(resourceId=/1557036870-1865550947-4DA5171E0313C11D472A794494AEC354, imageInfo=net.mamoe.mirai.internal.network.protocol.data.proto.Cmd0x352$ImgInfo@560ebc)[0m
+[0m2021-02-01 05:12:00 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:12:00 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4a319702)[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Recv: FileExists(resourceId=/1557036870-2703791511-4DA5171E0313C11D472A794494AEC354, imageInfo=net.mamoe.mirai.internal.network.protocol.data.proto.Cmd0x352$ImgInfo@21bb7298)[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:12:18 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:12:35 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@64411a55)[0m
+[0m2021-02-01 05:12:35 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:12:35 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:12:36 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:12:37 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:12:37 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:12:37 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:12:37 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 05:12:38 V/Net 1557036870: Recv: FileExists(resourceId=/1557036870-281486461-6C623B7C27B03F727C1220E2D75CB82A, imageInfo=net.mamoe.mirai.internal.network.protocol.data.proto.Cmd0x352$ImgInfo@103ca4a3)[0m
+[0m2021-02-01 05:12:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:12:39 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:13:15 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@676c4b37)[0m
+[0m2021-02-01 05:13:15 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:13:16 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:13:40 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@5a5076ad)[0m
+[0m2021-02-01 05:13:40 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:13:40 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:15:39 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1053ee03)[0m
+[0m2021-02-01 05:15:39 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:15:39 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:15:40 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:15:40 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:15:40 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:15:40 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:15:40 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:15:40 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:16:50 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@c77cb04)[0m
+[0m2021-02-01 05:16:50 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:16:50 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:17:07 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:17:07 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:17:26 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2f847d17)[0m
+[0m2021-02-01 05:17:26 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:17:26 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:17:47 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@23a1ed44)[0m
+[0m2021-02-01 05:17:47 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:17:47 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:17:58 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@17202b2b)[0m
+[0m2021-02-01 05:17:58 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:17:58 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:17:59 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:17:59 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:17:59 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:17:59 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:17:59 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:17:59 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:20:43 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@b18e752)[0m
+[0m2021-02-01 05:20:43 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:20:43 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:21:37 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:21:37 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:26:07 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:26:07 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:27:51 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@4a65e5ea)[0m
+[0m2021-02-01 05:27:51 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:27:51 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:27:52 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@29b50208)[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:28:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:28:25 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:29:37 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@333ab01e)[0m
+[0m2021-02-01 05:29:37 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:29:37 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:29:38 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:29:39 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:29:48 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@700b160c)[0m
+[0m2021-02-01 05:29:48 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:29:48 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@34b2e14d)[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:30:12 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:30:37 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:30:37 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:31:01 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7f0fca21)[0m
+[0m2021-02-01 05:31:01 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:31:01 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:31:57 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3c988be9)[0m
+[0m2021-02-01 05:31:57 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:31:57 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:31:58 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:34:23 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@69c1e7)[0m
+[0m2021-02-01 05:34:23 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:34:23 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:34:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:34:24 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:34:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:34:24 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:34:24 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:34:24 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:35:01 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@36a9f7ad)[0m
+[0m2021-02-01 05:35:01 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:35:02 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:35:03 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:35:03 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:35:03 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:35:03 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:35:03 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:35:03 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:35:07 V/Net 1557036870: Send: Heartbeat.Alive[0m
+[0m2021-02-01 05:35:07 V/Net 1557036870: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-01 05:35:20 V/Net 1557036870: Send: LongConn.OffPicUp[0m
+[0m2021-02-01 05:35:20 V/Net 1557036870: Recv: RequireUpload(resourceId=/1557036870-216818314-E7064ECCEE7D42B81B866E1B67BAF3C9, serverIp=[-21302920, 354104688, -1448403345, 2079766645], serverPort=[80, 8080, 443, 80], uKey=[100, 60, -24, 65, 105, -10, -91, -123, -113, -52, -127, -82, 63, 110, -119, 87, -1, 85, 26, 68, -100, 15, -36, -102, -1, -74, -72, -98, 8, -6, 123, 108, -16, -85, 12, 52, -72, -94, 71, 71, -87, 120, 117, -1, -111, 42, 96, -90, -44, 104, -63, -13, -6, 74, -109, -113, -118, 9, 69, -93, 118, -127, -28, 115, -7, -105, -54, -61, -86, 42, 63, 121, 45, 41, 20, 85, 110, 50, 123, -94, 94, -43, 127, 65, 35, 122, -71, -88, -17, -18, 20, 116, 122, -17, -34, -3, -74, -74, -123, -89, 110, -48, 84, -82, -23, 10, -98, 85, 58, 89, -17, -11, -68, 102, -25, 26, 85, 103, -105, 63, -123, -122, -57, 21, -83, -71, -70, -61, -114, 13, -28, 115, -122, 91, -53, 60, -71, -9, 112, 78, 120, 120, -116, -7, -59, 127, -26, -21, -21, 108, -125, 90, 28, -124, 28, 124, 113, -117, 24, 50, 42, 124, -61, 28, -63, -1, 22, 62, -75, -9, -76, -47, 83, 67, -92, -68, -114, 37, 1, -10, -6, 119, 116, 9, 4, -62, -123, 92, -51, -102, -3, -83, 103, -94, 22, 39, 34, 78, 35, 59, 31, 116, -86, -98, 90, 70, 26, 14, -3, 1, 91, 58, 29, -87, 1, 45, 114, 8, 65, 118, 34, 84, 36, -124, 81, 67, -103, 125, 3, 116, 16, 28, -57, -68, -10, 73, -97, -45, 60, 50, 10, -126, -19, -80, 23, -14, -63, 69, -128, 60, -55, 93, 61, 112, 88, 54, 31, 22, 13, 86, 93, 84, 26, -75, 11, -71, -128, 32, -102, 101, -116, -99, 83, -9, -94, 66, -5, -24, -62, 43, -14, 125, 23, -4, -82, 31, 0, -36, 73, 12, 60, -67, -21, 33, -21, 51, 124, 23, 82, 59, 119, 120, -1, 0, 80, 117, 73, 108, 120, -19, -28, 104, 0, 37, -39, 47, 34, 9, 3, -33, -5, -109, -80, -91, 34, -72, 119, -13, -60, 5, -52, -111, 117, -104, 121, 91])[0m
+[0m2021-02-01 05:35:20 V/Net 1557036870: [Http] Uploading friend image, size=810.5 KiB[0m
+[0m2021-02-01 05:35:22 V/Net 1557036870: [Http] Uploading friend image: succeed at 387 KiB/s[0m
+[0m2021-02-01 05:35:22 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:35:23 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:36:03 V/Net 1557036870: Recv: RequestPushNotify(uin=1557036870, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2dabbb0c)[0m
+[0m2021-02-01 05:36:03 V/Net 1557036870: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-01 05:36:03 V/Net 1557036870: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-01 05:36:04 V/Net 1557036870: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
