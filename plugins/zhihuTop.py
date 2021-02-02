@@ -11,7 +11,7 @@ from services.zhihuTop import get_zhTop
 
 
 @on_command('zhTop', aliases=('知乎', '知乎热搜'))
-async def dailyWallpaper(session: CommandSession):
+async def zhihuTop(session: CommandSession):
     data = await get_zhTop()
     msg = ''
     for item in data:

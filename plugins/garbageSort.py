@@ -11,7 +11,7 @@ from services.garbageSort import get_garbageSort
 
 
 @on_command('garbageSort', aliases='垃圾分类')
-async def dailyWallpaper(session: CommandSession):
+async def garbageSort(session: CommandSession):
     args = session.current_arg_text.strip().split(' ', 1)
     if not args[0]:
         keyword = await session.aget(key='city', prompt='请问是什么物品呢？', at_sender=True)

@@ -157,3 +157,57 @@ async def get_garbageSort_data(url: str) -> str:
             logger.exception(e)
             raise ServiceException('知乎热搜API暂不可用')
         return msg
+
+
+async def translate(keyword: str) -> str:
+    async with httpx.AsyncClient(headers={'User-Agent': UserAgent}) as client:
+        url = 'http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule&smartresult=ugc&sessionFrom=null'
+        key = {
+            'type': "AUTO",
+            'i': keyword,
+            "doctype": "json",
+            "version": "2.1",
+            "keyfrom": "fanyi.web",
+            "ue": "UTF-8",
+            "action": "FY_BY_CLICKBUTTON",
+            "typoResult": "true"
+        }
+        try:
+            resp = await client.post(url, data=key)
+            data = resp.json()
+        except HTTPError as e:
+            logger.exception(e)
+            raise ServiceException('知乎热搜API暂不可用')
+        return data['translateResult'][0][0]['tgt']
+
+
+async def get_music_id(song: str) -> int:
+    url = 'http://47.112.23.238/Music/getMusicList'
+    headers = {'User-Agent': UserAgent}
+    data = {
+        "musicName": song,
+        "type": "netease",
+        "number": "5"
+    }
+    async with httpx.AsyncClient() as client:
+        resp = await client.post(url, headers=headers, data=data)
+        id = resp.json()['data'][0]['id']
+        return id
+
+
+async def get_yiyan_data(url: str) -> str:
+    headers = {'User-Agent': UserAgent}
+    async with httpx.AsyncClient() as client:
+        resp = await client.get(url, headers=headers)
+        data = resp.json()['data']
+        msg = data['constant'] + ' --' + data['source']
+        return msg
+
+
+async def get_caihong_data(url: str) -> str:
+    headers = {'User-Agent': UserAgent}
+    async with httpx.AsyncClient() as client:
+        resp = await client.get(url, headers=headers)
+        data = resp.json()['data']
+        msg = data['comment']
+        return msg

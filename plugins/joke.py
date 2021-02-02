@@ -11,7 +11,7 @@ from services.joke import get_joke
 
 
 @on_command('joke', aliases=('笑话', '随机笑话'))
-async def dailyWallpaper(session: CommandSession):
+async def joke(session: CommandSession):
     msg = await get_joke()
     await session.send(MessageSegment.text(msg))
 

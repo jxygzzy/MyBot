@@ -885,3 +885,391 @@
 [0m2021-02-02 20:00:07 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
 [0m2021-02-02 20:00:07 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
 [0m2021-02-02 20:00:07 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:01:12 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:01:12 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:05:42 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:05:42 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:10:12 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:10:12 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:14:42 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:14:42 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-02 20:15:47 I/Net 706621919: Connected to server 42.81.172.147:443[0m
+[0m2021-02-02 20:15:47 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 20:15:48 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 20:15:48 I/Net 706621919: Login successful[0m
+[0m2021-02-02 20:15:48 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 20:15:48 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 20:15:48 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 20:15:48 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 20:15:48 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 20:15:48 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[92m2021-02-02 20:15:48 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 20:15:51 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 20:15:51 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 20:15:51 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 20:15:51 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 20:15:51 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 20:19:21 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:19:30 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:20:00 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1f82d1e9)[0m
+[0m2021-02-02 20:20:00 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:20:00 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:20:00 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:20:01 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:20:05 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2d39cf0d)[0m
+[0m2021-02-02 20:20:05 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:20:05 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:20:18 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:20:18 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:21:34 V/Net 706621919: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-02 20:21:34 V/Net 706621919: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-02 20:21:34 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:21:35 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:21:39 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:21:39 V/Net 706621919: Send: OidbSvc.0x570_8[0m
+[0m2021-02-02 20:21:39 V/Net 706621919: Recv: Response(Mute)[0m
+[0m2021-02-02 20:21:39 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:21:47 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3d4e4cd3)[0m
+[0m2021-02-02 20:21:47 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:21:47 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:21:47 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:21:48 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:21:48 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:21:48 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:21:51 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@66b11c31)[0m
+[0m2021-02-02 20:21:51 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:21:51 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:23:29 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:23:33 V/Net 706621919: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-02-02 20:23:33 V/Net 706621919: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-02-02 20:23:33 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:23:33 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:23:37 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:23:37 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:23:38 V/Net 706621919: Send: OnlinePush.RespPush[0m
+[0m2021-02-02 20:24:48 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:24:48 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:29:18 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:29:18 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:33:48 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:33:48 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:38:18 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:38:18 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-02 20:40:18 I/Net 706621919: Connected to server 42.81.172.81:80[0m
+[0m2021-02-02 20:40:18 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 20:40:19 I/Net 706621919: Login successful[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 20:40:19 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:40:19 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 20:40:19 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 20:40:22 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 20:40:22 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 20:40:22 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 20:40:22 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 20:40:22 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 20:41:20 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@e21e59)[0m
+[0m2021-02-02 20:41:20 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:41:20 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:41:20 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:41:20 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@801be0b)[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:41:26 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@708db6a8)[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:41:38 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:42:44 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@6b0bc61f)[0m
+[0m2021-02-02 20:42:44 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:42:44 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:42:44 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:42:44 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:42:52 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@73e58207)[0m
+[0m2021-02-02 20:42:52 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:42:52 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 20:42:52 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 20:42:52 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 20:44:49 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:44:49 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:49:19 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:49:24 V/Net 706621919: Send: Heartbeat.Alive[0m
+[92m2021-02-02 20:49:34 I/Net 706621919: Connected to server 114.221.148.59:14000[0m
+[0m2021-02-02 20:49:34 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 20:49:34 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 20:49:34 I/Net 706621919: Login successful[0m
+[0m2021-02-02 20:49:34 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 20:49:34 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 20:49:34 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 20:49:35 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 20:49:35 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 20:49:35 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 20:49:35 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 20:49:35 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 20:49:37 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 20:49:37 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 20:49:37 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 20:49:38 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 20:49:38 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 20:54:04 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:54:05 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 20:58:35 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 20:58:35 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:03:05 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:03:05 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-02 21:06:19 I/Net 706621919: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-02-02 21:06:19 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 21:06:20 I/Net 706621919: Login successful[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 21:06:20 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:06:20 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 21:06:20 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 21:06:23 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:06:23 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 21:06:23 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 21:06:23 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:06:23 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 21:09:13 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2664bfd8)[0m
+[0m2021-02-02 21:09:13 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:09:14 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:09:14 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 21:09:14 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 21:10:50 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:10:50 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:15:20 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:15:20 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:19:50 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:19:55 V/Net 706621919: Send: Heartbeat.Alive[0m
+[92m2021-02-02 21:20:05 I/Net 706621919: Connected to server 42.81.172.22:80[0m
+[0m2021-02-02 21:20:05 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 21:20:05 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 21:20:05 I/Net 706621919: Login successful[0m
+[0m2021-02-02 21:20:05 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 21:20:05 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 21:20:05 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 21:20:06 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 21:20:06 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 21:20:06 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:20:06 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 21:20:06 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 21:20:08 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:20:08 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 21:20:09 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 21:20:09 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:20:09 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 21:24:35 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:24:40 V/Net 706621919: Send: Heartbeat.Alive[0m
+[92m2021-02-02 21:24:51 I/Net 706621919: Connected to server 114.221.144.215:80[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 21:24:51 I/Net 706621919: Login successful[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 21:24:51 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:24:51 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 21:24:51 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 21:24:54 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:24:54 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 21:24:54 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 21:24:54 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:24:54 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 21:29:21 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:29:26 V/Net 706621919: Send: Heartbeat.Alive[0m
+[92m2021-02-02 21:29:36 I/Net 706621919: Connected to server 125.94.60.146:80[0m
+[0m2021-02-02 21:29:36 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 21:29:36 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 21:29:36 I/Net 706621919: Login successful[0m
+[0m2021-02-02 21:29:36 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 21:29:36 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 21:29:36 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 21:29:36 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 21:29:37 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 21:29:37 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:29:37 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 21:29:37 I/Net 706621919: Syncing friend message history: Success.[0m
+[96m2021-02-02 21:29:39 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 21:29:39 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:29:39 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 21:29:39 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:29:39 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 21:32:28 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@323eee91)[0m
+[0m2021-02-02 21:32:28 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:32:28 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:32:28 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 21:32:29 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 21:32:33 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@24c51ca8)[0m
+[0m2021-02-02 21:32:33 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:32:33 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:34:06 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:34:06 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:38:36 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:38:41 V/Net 706621919: Send: Heartbeat.Alive[0m
+[92m2021-02-02 21:38:52 I/Net 706621919: Connected to server 42.81.169.46:8080[0m
+[0m2021-02-02 21:38:52 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 21:38:52 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 21:38:52 I/Net 706621919: Login successful[0m
+[0m2021-02-02 21:38:52 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 21:38:53 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 21:38:53 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 21:38:53 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 21:38:53 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 21:38:53 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:38:53 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 21:38:53 I/Net 706621919: Syncing friend message history: Success.[0m
+[96m2021-02-02 21:38:56 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 21:38:56 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 21:38:56 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 21:41:40 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@452cac16)[0m
+[0m2021-02-02 21:41:40 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:41:40 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:41:40 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 21:41:41 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 21:41:46 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2f28b156)[0m
+[0m2021-02-02 21:41:46 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:41:46 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:42:40 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1cc3cd1f)[0m
+[0m2021-02-02 21:42:40 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:42:40 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:42:59 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3215e46c)[0m
+[0m2021-02-02 21:42:59 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:42:59 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:43:21 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@2d5e213e)[0m
+[0m2021-02-02 21:43:21 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:43:21 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:43:23 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:43:23 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:43:49 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@40affbe1)[0m
+[0m2021-02-02 21:43:49 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:43:49 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:44:48 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@c1a58a2)[0m
+[0m2021-02-02 21:44:48 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:44:48 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:45:26 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@34cfcc65)[0m
+[0m2021-02-02 21:45:26 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:45:26 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:45:47 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@11b1fbc9)[0m
+[0m2021-02-02 21:45:47 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 21:45:47 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 21:45:48 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 21:45:48 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 21:47:53 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:47:53 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:52:23 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:52:23 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 21:56:53 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 21:56:53 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 22:01:23 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:01:23 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-02 22:01:33 I/Net 706621919: Connected to server 42.81.172.147:443[0m
+[0m2021-02-02 22:01:33 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 22:01:34 I/Net 706621919: Login successful[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 22:01:34 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:01:34 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 22:01:34 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 22:01:37 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 22:01:37 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 22:01:37 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 22:01:37 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 22:01:37 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 22:06:04 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:06:04 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 22:10:34 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:10:34 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 22:15:04 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:15:04 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[92m2021-02-02 22:18:19 I/Net 706621919: Connected to server 42.81.172.81:80[0m
+[0m2021-02-02 22:18:19 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 22:18:20 I/Net 706621919: Login successful[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 22:18:20 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:18:20 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 22:18:20 I/Net 706621919: Syncing friend message history: Success.[0m
+[96m2021-02-02 22:18:23 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 22:18:23 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 22:18:23 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 22:22:50 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:22:55 V/Net 706621919: Send: Heartbeat.Alive[0m
+[92m2021-02-02 22:23:05 I/Net 706621919: Connected to server 114.221.148.59:14000[0m
+[0m2021-02-02 22:23:05 V/Net 706621919: Send: wtlogin.login[0m
+[0m2021-02-02 22:23:05 V/Net 706621919: Recv: LoginPacketResponse.Success[0m
+[92m2021-02-02 22:23:05 I/Net 706621919: Login successful[0m
+[0m2021-02-02 22:23:05 V/Net 706621919: Send: StatSvc.register[0m
+[0m2021-02-02 22:23:06 V/Net 706621919: Recv: Response(StatSvc.register)[0m
+[0m2021-02-02 22:23:06 V/Net 706621919: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-02-02 22:23:06 V/Net 706621919: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-02-02 22:23:06 I/Net 706621919: Syncing friend message history...[0m
+[0m2021-02-02 22:23:06 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:23:06 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-02-02 22:23:06 I/Net 706621919: Syncing friend message history: Success.[0m
+[0m2021-02-02 22:23:08 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 22:23:08 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[96m2021-02-02 22:23:08 D/Net 706621919: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-02-02 22:23:08 V/Net 706621919: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-02-02 22:23:08 V/Net 706621919: Send: ConfigPushSvc.PushResp[0m
+[0m2021-02-02 22:23:52 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@6a8a2386)[0m
+[0m2021-02-02 22:23:52 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:23:52 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:24:19 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1778cfa2)[0m
+[0m2021-02-02 22:24:19 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:24:19 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:24:19 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 22:24:20 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 22:24:24 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@460f9e9c)[0m
+[0m2021-02-02 22:24:24 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:24:24 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:24:25 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 22:24:25 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 22:24:35 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@620b0936)[0m
+[0m2021-02-02 22:24:35 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:24:35 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:24:35 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 22:24:36 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 22:27:36 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:27:36 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
+[0m2021-02-02 22:30:57 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@3cabb26d)[0m
+[0m2021-02-02 22:30:57 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:30:58 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:30:58 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 22:30:58 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 22:31:02 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@e0a9072)[0m
+[0m2021-02-02 22:31:02 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:31:02 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:31:02 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 22:31:03 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 22:31:07 V/Net 706621919: Recv: RequestPushNotify(uin=706621919, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=166, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@20f3958b)[0m
+[0m2021-02-02 22:31:07 V/Net 706621919: Send: MessageSvc.PbGetMsg[0m
+[0m2021-02-02 22:31:08 V/Net 706621919: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-02-02 22:31:08 V/Net 706621919: Send: MessageSvc.PbSendMsg[0m
+[0m2021-02-02 22:31:08 V/Net 706621919: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-02-02 22:32:06 V/Net 706621919: Send: Heartbeat.Alive[0m
+[0m2021-02-02 22:32:06 V/Net 706621919: Recv: Heartbeat.Alive.Response[0m
