@@ -12,7 +12,7 @@ from services.wikiPedia import get_wikipedia
 
 @on_command('wikipedia', aliases=('百科'))
 async def wikipedia(session: CommandSession):
-    words = session.get('words', prompt='你想查询什么词句呢？')
+    words = session.get('words', prompt='你想查询什么词条呢？')
     data = await get_wikipedia(words)
     if len(data) == 1:
         res = MessageSegment.text(data[0])

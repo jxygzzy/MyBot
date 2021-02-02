@@ -3,7 +3,7 @@ from httpx import AsyncClient, HTTPError
 
 from services.log import logger
 
-UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+UserAgent = "box-s-ville.Saiki"
 
 
 class ServiceException(Exception):
@@ -18,7 +18,8 @@ class ServiceException(Exception):
 
 
 async def fetch_text(uri: str) -> str:
-    async with AsyncClient(headers={'User-Agent': UserAgent}) as client:
+    async with AsyncClient(headers={'User-Agent': UserAgent}
+                           ) as client:
         try:
             res = await client.get(uri)
             res.raise_for_status()

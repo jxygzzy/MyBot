@@ -32,10 +32,10 @@ async def dailyWallpaper(session: CommandSession):
           "tags:" + str(data['tags'])
     # print(msg)
     await session.send(MessageSegment.text(msg))
-    imgUrl = data['url']
-    imgresp=requests.get(imgUrl,headers=headers,proxies=proxies)
-    img=Image.open(BytesIO(imgresp.content))
-    img.save('onebot/img/setu.png')
-    seq = MessageSegment.image('img/setu.png')
-    await session.send(seq)
+    # imgUrl = data['url']
+    # imgresp=requests.get(imgUrl,headers=headers,proxies=proxies)
+    # img=Image.open(BytesIO(imgresp.content))
+    # img.save('onebot/img/setu.png')
+    # seq = MessageSegment.image('img/setu.png')
+    # await session.send(seq)
 
