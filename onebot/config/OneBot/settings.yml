@@ -20,7 +20,7 @@ bots:
       - enable: true
         postMessageFormat: string
         reverseHost: 127.0.0.1
-        reversePort: 8080
+        reversePort: 9244
         accessToken: ''
         reversePath: '/ws'
         reverseApiPath: '/api'
