@@ -11,7 +11,7 @@ click==7.1.2
 colorama==0.4.4
 croniter==0.3.37
 devtools==0.6.1
-fastapi==0.63.0
+fastapi==0.65.2
 graia-application-mirai==0.15.0
 graia-broadcast==0.6.4
 h11==0.9.0
