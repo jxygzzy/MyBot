@@ -53,7 +53,7 @@ toml==0.10.2
 typing-extensions==3.7.4.3
 urllib3==1.26.3
 uvicorn==0.11.8
-websockets==8.1
+websockets==9.1
 Werkzeug==1.0.1
 win32-setctime==1.0.3
 wsproto==1.0.0
